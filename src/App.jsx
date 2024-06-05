@@ -1,12 +1,23 @@
-import './App.css'
+import { useState } from 'react';
+import PropTypes from 'prop-types';
+import Header from './components/layouts/Header.jsx';
 
-function App() {
+import './App.scss';
+import Content from './components/layouts/Content.jsx';
 
-  return (
-    <>
-      Todoist
-    </>
-  )
+function App({ darkModeDefault = false }) {
+    const [darkMode, setDarkMode] = useState(darkModeDefault);
+
+    return (
+        <main data-testid="application" className={ darkMode ? 'darkmode': undefined }>
+            <Header darkMode={darkMode} setDarkMode={setDarkMode} />
+            <Content />
+        </main>
+    );
 }
 
-export default App
+App.propTypes = {
+    darkModeDefault: PropTypes.bool,
+};
+
+export default App;
