@@ -1,0 +1,48 @@
+{
+    "projects": [
+        {
+            "userId": 1,
+            "id": 1,
+            "name": "music"
+        },
+        {
+            "userId": 1,
+            "id": 2,
+            "name": "house"
+        }
+    ],
+    "tasks": [
+        {
+            "userId": 1,
+            "projectId": 1,
+            "id": 1,
+            "task": "play music",
+            "date": "",
+            "archived": false
+        },
+        {
+            "userId": 1,
+            "projectId": 2,
+            "id": 2,
+            "task": "build",
+            "date": "",
+            "archived": false
+        },
+        {
+            "userId": 1,
+            "projectId": 1,
+            "id": 3,
+            "task": "play guitar",
+            "date": "",
+            "archived": false
+        }
+    ],
+    "users": [
+        {
+            "id": 1,
+            "firstName": "Eric",
+            "lastName": "Durocher",
+            "twitter": ""
+        }
+    ]
+}

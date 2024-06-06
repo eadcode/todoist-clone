@@ -1,10 +1,11 @@
 import Sidebar from './Sidebar.jsx';
+import Tasks from '../Tasks.jsx';
 
 const Content = () => {
     return (
         <section className="content">
             <Sidebar />
-            {/*<Tasks />*/}
+            <Tasks />
         </section>
     );
 };

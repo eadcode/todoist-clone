@@ -1,0 +1,4 @@
+{
+    "/projects/:id" : "/projects/:id",
+    "/projects/:id/tasks?project_id=:id" : "/projects/:id/tasks"
+}

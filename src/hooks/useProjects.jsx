@@ -1,13 +1,11 @@
 import { useEffect, useState } from 'react';
-import { firebase } from '../firebase.js';
+import { db } from '../firebase.js';
 
 export const useProjects = () => {
     const [projects, setProjects] = useState([]);
 
     useEffect(() => {
-        firebase
-            .firestore()
-            .collection('projects')
+        db.collection('projects')
             .where('userId', '==', 'jlIFXIwyAL3tzHMtzRbw')
             .orderBy('projectId')
             .get()
