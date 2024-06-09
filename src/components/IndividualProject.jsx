@@ -23,7 +23,10 @@ const IndividualProject = ({ project }) => {
             <span
                 className="sidebar__project-delete"
                 data-testid="delete-project"
-                onClick={ () => setShowConfirm(! showConfirm) }
+                onClick={
+                    () => deleteSingleProject(project.id)
+                    // () => setShowConfirm(! showConfirm)
+                }
                 onKeyDown={ (e) => {
                     if (e.key === 'Enter') setShowConfirm(! showConfirm);
                 } }

@@ -14,31 +14,6 @@
       "userId": 2,
       "id": 3,
       "name": "house"
-    },
-    {
-      "name": "test",
-      "userId": 1,
-      "id": 4
-    },
-    {
-      "name": "bereee",
-      "userId": 1,
-      "id": 5
-    },
-    {
-      "name": "bvcvbcvcbvbcbvc",
-      "userId": 1,
-      "id": 6
-    },
-    {
-      "name": "mnmnmvbmbm",
-      "userId": 1,
-      "id": 7
-    },
-    {
-      "name": "jkkjkkjjk",
-      "userId": 1,
-      "id": 8
     }
   ],
   "tasks": [
@@ -68,43 +43,11 @@
     },
     {
       "archived": false,
-      "projectId": "INBOX",
-      "task": "newrere",
-      "date": "",
-      "userId": 1,
-      "id": 4
-    },
-    {
-      "archived": false,
-      "projectId": "INBOX",
-      "task": "dsdsdssd",
-      "date": "15/06/2024",
-      "userId": 1,
-      "id": 5
-    },
-    {
-      "archived": false,
-      "projectId": "INBOX",
-      "task": "sdfdsfdsdf",
-      "date": "08/06/2024",
-      "userId": 1,
-      "id": 6
-    },
-    {
-      "archived": false,
       "projectId": 1,
       "task": "xzxczcxzcxcxz",
       "date": "08/06/2024",
       "userId": 1,
       "id": 7
-    },
-    {
-      "archived": false,
-      "projectId": 6,
-      "task": "test1111",
-      "date": "",
-      "userId": 1,
-      "id": 8
     },
     {
       "archived": false,
@@ -120,11 +63,11 @@
     },
     {
       "archived": false,
-      "projectId": "INBOX",
-      "task": "dfsdfsdfdffsd",
-      "date": "",
+      "projectId": 1,
+      "task": "rtertret",
+      "date": "09/06/2024",
       "userId": 1,
-      "id": 11
+      "id": 13
     }
   ],
   "users": [
