@@ -1,48 +1,144 @@
 {
-    "projects": [
-        {
-            "userId": 1,
-            "id": 1,
-            "name": "music"
-        },
-        {
-            "userId": 1,
-            "id": 2,
-            "name": "house"
-        }
-    ],
-    "tasks": [
-        {
-            "userId": 1,
-            "projectId": 1,
-            "id": 1,
-            "task": "play music",
-            "date": "",
-            "archived": false
-        },
-        {
-            "userId": 1,
-            "projectId": 2,
-            "id": 2,
-            "task": "build",
-            "date": "",
-            "archived": false
-        },
-        {
-            "userId": 1,
-            "projectId": 1,
-            "id": 3,
-            "task": "play guitar",
-            "date": "",
-            "archived": false
-        }
-    ],
-    "users": [
-        {
-            "id": 1,
-            "firstName": "Eric",
-            "lastName": "Durocher",
-            "twitter": ""
-        }
-    ]
+  "projects": [
+    {
+      "userId": 1,
+      "id": 1,
+      "name": "music"
+    },
+    {
+      "userId": 1,
+      "id": 2,
+      "name": "house"
+    },
+    {
+      "userId": 2,
+      "id": 3,
+      "name": "house"
+    },
+    {
+      "name": "test",
+      "userId": 1,
+      "id": 4
+    },
+    {
+      "name": "bereee",
+      "userId": 1,
+      "id": 5
+    },
+    {
+      "name": "bvcvbcvcbvbcbvc",
+      "userId": 1,
+      "id": 6
+    },
+    {
+      "name": "mnmnmvbmbm",
+      "userId": 1,
+      "id": 7
+    },
+    {
+      "name": "jkkjkkjjk",
+      "userId": 1,
+      "id": 8
+    }
+  ],
+  "tasks": [
+    {
+      "userId": 1,
+      "projectId": 1,
+      "id": 1,
+      "task": "play music",
+      "date": "",
+      "archived": false
+    },
+    {
+      "userId": 1,
+      "projectId": 2,
+      "id": 2,
+      "task": "build",
+      "date": "",
+      "archived": false
+    },
+    {
+      "userId": 1,
+      "projectId": 1,
+      "id": 3,
+      "task": "play guitar",
+      "date": "",
+      "archived": false
+    },
+    {
+      "archived": false,
+      "projectId": "INBOX",
+      "task": "newrere",
+      "date": "",
+      "userId": 1,
+      "id": 4
+    },
+    {
+      "archived": false,
+      "projectId": "INBOX",
+      "task": "dsdsdssd",
+      "date": "15/06/2024",
+      "userId": 1,
+      "id": 5
+    },
+    {
+      "archived": false,
+      "projectId": "INBOX",
+      "task": "sdfdsfdsdf",
+      "date": "08/06/2024",
+      "userId": 1,
+      "id": 6
+    },
+    {
+      "archived": false,
+      "projectId": 1,
+      "task": "xzxczcxzcxcxz",
+      "date": "08/06/2024",
+      "userId": 1,
+      "id": 7
+    },
+    {
+      "archived": false,
+      "projectId": 6,
+      "task": "test1111",
+      "date": "",
+      "userId": 1,
+      "id": 8
+    },
+    {
+      "archived": false,
+      "projectId": 1,
+      "task": "trertertert",
+      "date": "",
+      "userId": 1,
+      "id": 9
+    },
+    {
+      "archived": true,
+      "id": 10
+    },
+    {
+      "archived": false,
+      "projectId": "INBOX",
+      "task": "dfsdfsdfdffsd",
+      "date": "",
+      "userId": 1,
+      "id": 11
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "firstName": "Eric",
+      "lastName": "Durocher",
+      "twitter": ""
+    },
+    {
+      "id": 2,
+      "firstName": "Eva",
+      "lastName": "Durocher",
+      "twitter": ""
+    }
+  ]
 }

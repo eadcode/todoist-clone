@@ -1,11 +1,9 @@
 import PropTypes from 'prop-types';
-import { db } from '../firebase';
+import { updateUserProjectTask } from '../services/api.js';
 
-const Checkbox = ({ id, taskDesc }) => {
+const Checkbox = ({ id, taskDesc, task }) => {
     const archiveTask = () => {
-        db.collection('tasks').doc(id).update({
-            archived: true,
-        });
+        updateUserProjectTask(task)
     };
 
     return (
@@ -25,9 +23,9 @@ const Checkbox = ({ id, taskDesc }) => {
     );
 };
 
-Checkbox.propTypes = {
-    id: PropTypes.string.isRequired,
-    taskDesc: PropTypes.string.isRequired,
-};
+// Checkbox.propTypes = {
+//     id: PropTypes.string.isRequired,
+//     taskDesc: PropTypes.string.isRequired,
+// };
 
 export default Checkbox;
